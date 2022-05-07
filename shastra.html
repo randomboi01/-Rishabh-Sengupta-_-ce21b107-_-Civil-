@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>shastra</title>
+    <a href="http://127.0.0.1:5500/C%20program/shastra.html" class="homebutton">
+        <img src="https://image.shutterstock.com/image-vector/house-icon-white-outline-sign-260nw-1216929439.jpg"
+            alt="homebtn" style="float: right;;width: 40px; height: 40px;">
+    </a>
+</head>
+<style>
+    ul {
+        list-style-type: none;
+        margin-left: 30%;
+        margin-right: 30%;
+        padding: 0;
+        background-color: rgba(0, 0, 0, 0.592);
+        /* align-self:; */
+        /* this helps in border sizing */
+    }
+
+    #homedes {
+        background-color: rgb(32, 92, 144);
+        border: none;
+        color: white;
+        padding: 15px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 15px;
+        margin-left: 3%;
+        cursor: pointer;
+    }
+
+    #newsdes {
+        background-color: rgb(8, 24, 37);
+        border: none;
+        color: white;
+        padding: 15px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 15px;
+        cursor: pointer;
+    }
+
+    #aboutdes {
+        background-color: rgb(12, 25, 36);
+        border: none;
+        color: white;
+        padding: 15px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 15px;
+        cursor: pointer;
+    }
+
+    #contactdes {
+        background-color: rgb(15, 52, 85);
+        border: none;
+        color: white;
+        padding: 15px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 15px;
+        cursor: pointer;
+
+    }
+
+
+    .Events::before {
+        content: '';
+        position: absolute;
+        height: 55%;
+        width: 0.5%;
+        margin-left: 49.4%;
+        margin-top: 3%;
+        margin-bottom: 20px;
+        background-color: rgba(255, 255, 255, 0.701);
+    }
+
+
+    .Event_1 {
+        background-color: rgba(200, 255, 0, 0);
+        border: 2px solid rgb(243, 239, 239);
+        margin: auto;
+        padding: 10px;
+        margin-left: 0%;
+        margin-bottom: 7%;
+        border-radius: 15px;
+        margin-top: 5%;
+        text-align: center;
+        color: white;
+    }
+
+    .Event_2 {
+        background-color: rgba(200, 255, 0, 0);
+        border: 2px solid rgb(243, 239, 239);
+        margin: auto;
+        margin-right: 0%;
+        padding: 10px;
+        margin-bottom: 20px;
+        border-radius: 15px;
+        text-align: center;
+        color: white;
+    }
+
+    .Event_3 {
+        background-color: rgba(200, 255, 0, 0);
+        border: 2px solid rgb(243, 239, 239);
+        padding: 10px;
+        border-radius: 15px;
+        text-align: center;
+        margin-bottom: 10%;
+        color: white;
+    }
+
+    .header {
+        text-align: center;
+        font-family: verdana;
+        font-style: italic;
+        font-size: 250%;
+        color: aqua;
+    }
+
+    #texthere1 {
+        background-color: rgba(25, 107, 179, 0.604);
+        color: white;
+        font-size: 140%;
+    }
+
+    #texthere2 {
+        background-color: rgba(8, 24, 37, 0.49);
+        color: white;
+        font-size: 140%;
+    }
+
+    #texthere3 {
+        background-color: rgba(12, 25, 36, 0.451);
+        color: white;
+        font-size: 140%;
+    }
+
+    #texthere4 {
+        background-color: rgba(15, 52, 85, 0.589);
+        color: white;
+        font-size: 140%;
+    }
+
+    .homebutton {
+        color: transparent;
+        outline: none;
+        text-decoration: none;
+        font-size: 150%;
+
+    }
+</style>
+
+
+
+<body
+    style="background-image: url(https://free4kwallpapers.com/uploads/originals/2016/02/07/purple-aurora-sparks-wallpaper.jpg);background-size: cover;">
+    <h1 style="font-size:100px; color: rgb(255, 255, 255); font-family:'Times New Roman', Times, serif;">SPARK
+        <img src="https://pbs.twimg.com/profile_images/1337462509586894848/Ri2u40w6_400x400.jpg" alt="shastra logo"
+            style="float:left;width: 80px;height:80px; padding-right: 465px;">
+
+    </h1>
+
+    <div class="flex-container">
+
+
+
+        <button onclick="myfunc()" id="homedes">REGISTRATION</button>
+        <script>
+            function myfunc() {
+                document.getElementById("texthere1").innerHTML = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero aut asperiores quisquam quo? Natus aliquid quia dicta, accusantium praesentium voluptatum fugit nobis explicabo nesciunt illo perferendis dolor! Voluptatem consectetur deleniti iste earum libero distinctio minima commodi ipsam, dolorem, excepturi nulla, quaerat non nesciunt sunt sint in eius tempora fuga eaque aliquam. Modi ea rem delectus!";
+            }
+        </script>
+        <button onclick="myfunc1()" id="newsdes">NEWS</button>
+        <script>
+            function myfunc1() {
+                document.getElementById("texthere2").innerHTML = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero aut asperiores quisquam quo? Natus aliquid quia dicta, accusantium praesentium voluptatum fugit nobis explicabo nesciunt illo perferendis dolor! Voluptatem consectetur deleniti iste earum libero distinctio minima commodi ipsam, dolorem, excepturi nulla, quaerat non nesciunt sunt sint in eius tempora fuga eaque aliquam. Modi ea rem delectus!";
+            }
+        </script>
+        <button onclick="myfunc2()" ID="contactdes">CONTACT</button>
+        <script>
+            function myfunc2() {
+                document.getElementById("texthere3").innerHTML = "For further information contact: <br> ABC +91 1111111111 <br> Email ID: abc@smail.iitm.ac.in <br> XYZ +91 2222222222 <br> Email ID: xyz@smail.iitm.ac.in";
+            }
+        </script>
+        <button onclick="myfunc3()" id="aboutdes">ABOUT</button>
+        <script>
+            function myfunc3() {
+                document.getElementById("texthere4").innerHTML = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero aut asperiores quisquam quo? Natus aliquid quia dicta, accusantium praesentium voluptatum fugit nobis explicabo nesciunt illo perferendis dolor! Voluptatem consectetur deleniti iste earum libero distinctio minima commodi ipsam, dolorem, excepturi nulla, quaerat non nesciunt sunt sint in eius tempora fuga eaque aliquam. Modi ea rem delectus!";
+            }
+        </script>
+
+        <p id="texthere1"></p>
+        <p id="texthere2"></p>
+        <p id="texthere3"></p>
+        <p id="texthere4"></p>
+    </div>
+
+
+    <!--FROM HERE ONWARDS THE TIMELINE BOX IS DONE-->
+    <h1 class="header">EVENT DETAILS</h1>
+    <div class="Events">
+        <ul>
+            <li style="border-width: 30%;">
+                <div class="Event_1" style="width:200px;">
+                    <h2>
+                        Event 1
+                    </h2>
+                    <p>
+                        Date : 03/05/2022<br>
+                        Venue: ABC
+                    </p>
+                </div>
+                <div class="Event_2" style="width:200px">
+                    <h2>
+                        Event 2
+                    </h2>
+                    <p>
+                        Date : 04/05/2022<br>
+                        Venue: XYZ
+                    </p>
+                </div>
+                <div class="Event_3" style="width:200px">
+                    <h2>
+                        Event 3
+                    </h2>
+                    <p>
+                        Date : 04/05/2022<br>
+                        Venue: PQR
+                    </p>
+                </div>
+                <div class="vl"></div>
+            </li>
+        </ul>
+    </div>
+
+</body>
+
+</html>
